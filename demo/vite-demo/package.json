@@ -1,0 +1,22 @@
+{
+  "name": "vite-demo",
+  "version": "0.0.1",
+  "description": "This is a demo for learning vite.",
+  "main": "",
+  "scripts": {
+    "watch": "tsc",
+    "server": "nodemon ./out/server/main.js -w ./out/server"
+  },
+  "keywords": [],
+  "author": "sleepyfive",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "koa": "^2.13.3"
+  }
+}

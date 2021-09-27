@@ -1,0 +1,1 @@
+type Str2StrType = (path:string)=>string
